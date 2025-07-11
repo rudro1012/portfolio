@@ -1,8 +1,160 @@
 
-.open-sans-normal {
+/* font for the whole system */
+.open-sans-usable {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
+/* shared style */
+.text-primary{
+  color: rgba( 253, 100, 10 ,100%) ;
+}
+.dark-2{
+   color: rgba( 71, 71, 71 ,100%);
+}
+/* button  */
+.btn-primary{
+  font-size: 20px;
+  background-color: rgba( 253, 100, 10 ,100%) ;
+  color: rgba( 255, 255, 255 ,100%);
+  font-weight: bold;
+  font-family: inherit;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+.btn-secondary{
+  font-size: 20px;
+  background-color: rgba( 255, 255, 255 ,100%) ;
+  color:  rgba( 253, 100, 10 ,100%) ;
+  font-weight: bold;
+  font-family: inherit;
+  border: 2px solid rgba( 253, 100, 10 ,100%) ;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+/* flexing the navigation section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:51px 225px
+}
+
+/* navigation title size */
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+/* turning list into navigation menu */
+nav ul li{
+  list-style: none;
+}
+
+nav ul{
+  display: flex; 
+  align-items: center; 
+}
+
+/* no line under the hyperlinks */
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 51px;
+}
+/* image and header description */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 51px 0 225px ;
+}
+/* banner greetings and intro */
+.banner-greetings{
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-intro{
+  font-weight: bold;
+  font-size: 85px; 
+}
+.banner-description{
+  font-size: 18;
+}
+
+/* imgae style */
+.banner-image{
+  max-width: 584;
+  
+}
+
+/* banner content sizing */
+.banner-content {
+  max-width: 585px;
+  height: 356px;
+  margin-top: 185px;
+}
+.header{
+  background-image: url("../../project/portfolio-resources/images/developer.png"),url("../../project/portfolio-resources/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position:top left,bottom right;
+  
+}
+.section-title{
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  
+}
+.about{
+  color: #757575;
+  font-size: 18;
+}
+.secondary-bg{
+  background-color: #FFF8F3;
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section{
+  margin-top: 130px;
+}
+.about-section{
+  max-width: 827px;
+  /* max-height: 288px; */
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+}
+.main-about{
+  border-style:solid; 
+  border-color: #FFF8F3;
+  border-width: 131px 156px;
+  border-radius: 10px;
+  
+
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.what-i{
+  text-align: center;
+}
+.card-container{
+  display: flex;
+  gap: 24px;
+}
+.card{
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 6px 50px 0px  rgba(0,0,0,6%);
+}
+
+
+
+
