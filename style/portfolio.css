@@ -98,7 +98,7 @@ nav li a{
   margin-top: 185px;
 }
 .header{
-  background-image: url("../../project/portfolio-resources/images/developer.png"),url("../../project/portfolio-resources/images/header_bg.png");
+  background-image: url("../../../../project/portfolio-resources/images/developer.png"),url("../../../../project/portfolio-resources/images/header_bg.png");
   background-repeat: no-repeat;
   background-position:top left,bottom right;
   
@@ -153,6 +153,39 @@ main section{
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0px 6px 50px 0px  rgba(0,0,0,6%);
+}
+
+.footer-padding div{
+  width: 50%;
+}
+.footer-padding{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.foot-2{
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: column;
+  /* margin-left: 30%; */
+  
+  
+}
+
+.foot-2 input,.foot-2 textarea{
+  margin-top: 20px;
+  margin-left:50px ;
+}
+.footer{
+  background-color: #FFF8F3;
+}
+
+input, textarea{
+  height: 64px;
+  max-width: 80%;
+
 }
 
 
